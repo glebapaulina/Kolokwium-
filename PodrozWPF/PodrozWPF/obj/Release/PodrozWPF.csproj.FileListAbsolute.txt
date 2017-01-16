@@ -1,0 +1,12 @@
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\bin\Release\PodrozWPF.exe.config
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\bin\Release\PodrozWPF.exe
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\bin\Release\PodrozWPF.pdb
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\MainWindow.baml
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\MainWindow.g.cs
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\App.g.cs
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF_MarkupCompile.cache
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF.g.resources
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF.Properties.Resources.resources
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF.csproj.GenerateResource.Cache
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF.exe
+C:\Users\local\Desktop\kolokwiumPaulinaGleba\PodrozWPF\PodrozWPF\obj\Release\PodrozWPF.pdb

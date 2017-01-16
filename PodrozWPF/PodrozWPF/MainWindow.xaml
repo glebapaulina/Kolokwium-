@@ -1,0 +1,36 @@
+﻿<Window x:Class="PodrozWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name ="podrozbutton" Click="podroz_Click"  Content="Nowa podróż" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="22,38,0,0"/>
+        <Button x:Name="dodaj" Click="dodaj_Click"  Content="Dodaj stację" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="22,78,0,0"/>
+        <Button x:Name="usun" Click="usun_Click" Content="Usuń stację" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="22,119,0,0"/>
+        <Button x:Name="powrot" Click="powrot_Click" Content="Powrót" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="22,158,0,0"/>
+        <Button x:Name="zapisz" Click="zapisz_Click" Content="Zapisz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="22,262,0,0" Height="39"/>
+        <TextBlock x:Name ="info" HorizontalAlignment="Left" Width="202" TextWrapping="Wrap" VerticalAlignment="Top" Margin="305,58,0,0" Height="229"/>
+
+        <Grid x:Name="GridPodroz" HorizontalAlignment="Left" Height="169" VerticalAlignment="Top" Width="123" Visibility="Hidden" Margin="140,78,0,0">
+            <ComboBox x:Name="rodzajcombo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="0,26,0,0" >
+                <ComboBoxItem IsSelected ="True" Content="Normalna"></ComboBoxItem>
+                <ComboBoxItem Content="Last Minute"></ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="dalej" Click="dalej_Click" Content="Dalej" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="19,137,0,0"/>
+
+        </Grid>
+        <Grid x:Name="GridStacja" HorizontalAlignment="Left" Height="175" VerticalAlignment="Top" Width="139" Margin="138,78,0,0" Visibility="Hidden">
+            <Label Content="Nazwa" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-1.587,-1.952"/>
+            <TextBox x:Name="nazwastacji" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="9,26,0,0"/>
+            <ComboBox x:Name="oplatacombo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="9,89,0,0">
+                <ComboBoxItem IsSelected ="True" Content="Tak"></ComboBoxItem>
+                <ComboBoxItem Content="Nie"></ComboBoxItem>
+            </ComboBox>
+            <Label Content="Opłata klimatyczna" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,63,0,0"/>
+            <Button Content="Dodaj" x:Name="dodajstacje" Click="dodajstacje_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,143,0,0"/>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
